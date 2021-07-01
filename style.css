@@ -8,7 +8,7 @@ html, html a {
     -webkit-font-smoothing: antialiased !important;
      -moz-osx-font-smoothing: grayscale;
 }
-h1, h3{
+h1, h2, h3{
 	font-family: 'Open Sans', sans-serif;
 }
 .accordion-header{
@@ -40,6 +40,7 @@ nav .nav-link{
 .navbar-brand{
 	font-family: 'Raleway', sans-serif;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -68,7 +69,7 @@ nav .nav-link{
 	filter: drop-shadow(0 0 0.45rem grey);
 }
 .main-text{
-	filter: drop-shadow(0 0 0.30rem grey);
+	filter: drop-shadow(0 0 0.20rem grey);
 	-webkit-font-smoothing: antialiased !important;
 }
 /*.active, .nav-link:hover {
@@ -77,10 +78,37 @@ nav .nav-link{
 }*/
 @media(max-width: 768px){
    #me{
-   	width: 80%;
-   	margin: 0;
+   	display: block;
+   	width: 70%;
+   	margin: auto;
    }
 
+   	.col-md-4{
+	
+}
 
+@media(max-width: 500px){
+   	.row .col-md-4{
+		width: 100%;
+	}
+	.container{
+		display: block;
+		width: 100%;
+		
+	}
+	#about{
+		width: 100%;
+	}
+	.card{
    
+    	width: 100%;
+  	}
+	.main-text{
+	filter: drop-shadow(0 0 0.0rem grey);
+	-webkit-font-smoothing: antialiased !important;
+	}
+   
+}
+::placeholder{
+	color: #fff;
 }
