@@ -25,6 +25,10 @@
 .laravel{
 	width: 80%;
 }
+.active, .nav-link:hover {
+  background-color: #666;
+  color: white;
+}
 @media(max-width: 768px){
    #me{
    	width: 80%;
