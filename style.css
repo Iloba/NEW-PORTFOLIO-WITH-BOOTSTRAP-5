@@ -15,6 +15,18 @@ h1, h3{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
+.bg-mixed{
+	background-image: radial-gradient(rgba(
+    145, 146, 122, 0.62), rgba(217, 91, 132, 0.58)), url(
+	'./img/laravel.svg');
+	background-repeat: no-repeat;
+}
+.bg-mixedTwo{
+	background-image: radial-gradient(rgba(
+    145, 146, 122, 0.62), rgba(217, 91, 132, 0.58)), url(
+	'./img/mac.svg');
+	background-repeat: no-repeat;
+}
 p{
 	font-family: 'Raleway', sans-serif;
 }
