@@ -1,0 +1,36 @@
+/*My Style*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #212529; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1c1f23; 
+}
+
+#me{
+	width: 20%;
+	filter: drop-shadow(20%);
+}
+.laravel{
+	width: 80%;
+}
+@media(max-width: 768px){
+   #me{
+   	width: 80%;
+   	margin: 0;
+   }
+
+
+   
+}
