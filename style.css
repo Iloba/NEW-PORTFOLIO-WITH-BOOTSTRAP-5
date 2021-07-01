@@ -1,4 +1,24 @@
 /*My Style*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+div .accordion-body{
+	font-family: 'Raleway', sans-serif;
+}
+nav .nav-link{
+	font-family: 'Raleway', sans-serif;
+	/*text-transform: uppercase;*/
+}
+.navbar-brand{
+	font-family: 'Raleway', sans-serif;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -27,7 +47,7 @@
 	filter: drop-shadow(0 0 0.45rem grey);
 }
 .main-text{
-	filter: drop-shadow(0 0 0.35rem grey);
+	filter: drop-shadow(0 0 0.30rem grey);
 }
 /*.active, .nav-link:hover {
   background-color: #666;
