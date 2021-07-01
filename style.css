@@ -77,12 +77,6 @@ nav .nav-link{
   color: white;
 }*/
 @media(max-width: 768px){
-   #me{
-   	display: block;
-   	width: 70%;
-   	margin: auto;
-   }
-
    	.col-md-4{
 	
 }
@@ -94,7 +88,11 @@ nav .nav-link{
 	.container{
 		display: block;
 		width: 100%;
+		padding: auto;
 		
+	}
+	#me{
+		width: 50%;
 	}
 	#about{
 		width: 100%;
@@ -112,17 +110,7 @@ nav .nav-link{
 		margin: 0;
 		padding: 0;
 	}
-	#me{
-		width: 80%;
-		display: flex;
-		margin: auto;
-	}
-	.img-box{
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+	
 	.welcome-text{
 		display: block;
 		width: 100%;
@@ -137,15 +125,13 @@ nav .nav-link{
 	#links{
 		margin: -1px;
 	}
+	section{
+		width: 100%;
+		padding: 12px;
+	}
 
    
 }
 @media(max-width: 650px){
-	.img-box{
-		display: flex;
-		width: 100%;
-	}
-}
-::placeholder{
-	color: #fff;
+	
 }
