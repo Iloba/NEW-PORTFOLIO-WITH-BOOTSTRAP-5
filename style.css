@@ -20,10 +20,14 @@
 
 #me{
 	width: 20%;
-	filter: drop-shadow(20%);
+	filter: drop-shadow(0 0 0.45rem grey);
 }
 .laravel{
 	width: 80%;
+	filter: drop-shadow(0 0 0.45rem grey);
+}
+.main-text{
+	filter: drop-shadow(0 0 0.35rem grey);
 }
 /*.active, .nav-link:hover {
   background-color: #666;
