@@ -85,12 +85,12 @@ nav .nav-link{
    	.row .col-md-4{
 		width: 100%;
 	}
-	.container{
+	/*.container{
 		display: block;
 		width: 100%;
 		padding: auto;
 		
-	}
+	}*/
 	#me{
 		width: 50%;
 	}
@@ -117,11 +117,11 @@ nav .nav-link{
 		padding: 0px;
 		margin: 0px;
 	}
-	.container{
+	/*.container{
 		display: block;
 		width: 100%;
 		margin: 10px;
-	}
+	}*/
 	#links{
 		margin: -1px;
 	}
@@ -134,4 +134,9 @@ nav .nav-link{
 }
 @media(max-width: 650px){
 	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
