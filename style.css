@@ -61,7 +61,7 @@ nav .nav-link{
 }
 
 #me{
-	width: 20%;
+	width: 80%;
 	filter: drop-shadow(0 0 0.45rem grey);
 }
 .laravel{
@@ -139,4 +139,13 @@ nav .nav-link{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+@media(max-width: 598px){
+	#me{
+		width: 80%;
+	}
+	.welcome-text{
+		text-align: center;
+	}
 }

@@ -21,57 +21,31 @@
             <a class="navbar-brand main-text" href="index.html"> Timothy Emeka Iloba</a>
 
             <!-- Navbar-toggler -->
-            <button class="navbar-toggler" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" onclick="display();"  data-bs-target="#navmenu">
+                <span id="hello" class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="	offcanvasExampleLabel">
-  			<div class="offcanvas-header">
-    			<h5 class="offcanvas-title" id="offcanvasExampleLabel"><a class="navbar-brand text-dark" href="index.html"> Timothy Emeka Iloba</a></h5>
-    			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  			</div>
-			  <div class="offcanvas-body m-3">
-			    <div class="text-dark">
-			     	<ul class="navbar-nav text-secondary">
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary fw-bold h1" href="#about">About</a>
-                    </li>
-                     <li class="nav-item">
-                        <a class="nav-link text-secondary fw-bold h1" href="#skills">Top Expertise</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary fw-bold h1" href="#projects">Previous Projects</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary fw-bold h1"  href="DEVELOPER-RESUME.pdf">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary fw-bold h1" href="#contact">Contact</a>
-                    </li>
-                </ul>
-			    </div>
-			  </div>
-			</div>
+           
+  			
 
             <!-- Navbar-Menu -->
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#about">About</a>
+            <div class="collapse navbar-collapse" id="navmenu" >
+                <ul class="navbar-nav ms-auto" id="item">
+                    <li class="nav-item" >
+                        <a class="nav-link active" onclick="myFunction()" href="#about">About</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#skills">Top Expertise</a>
+                        <a class="nav-link"  onclick="myFunction()" href="#skills">Top Expertise</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Previous Projects</a>
+                        <a class="nav-link"  onclick="myFunction()" href="#projects">Previous Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link"  href="DEVELOPER-RESUME.pdf">Resume</a>
+                        <a class="nav-link" onclick="myFunction()" target="_blank"  href="DEVELOPER-RESUME.pdf">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" onclick="myFunction()" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -83,22 +57,27 @@
      <section class="bg-dark text-light p-3 p-lg-0 pt-lg-5 text-center text-sm-start mt-5 mb-5 ">
         <div class="container p-1 p-sm-5">
             <!-- Flex box -->
-            <div class="d-sm-flex align-items-center justify-content-between" >
-                	<img data-aos="fade-right"  data-aos-duration="3000" id="me" class="img-fluid rounded m-3" src="img/me.JPG" alt="Timothy Emeka Iloba">
-                <div data-aos="fade-left" class="m-4"  data-aos-duration="2000">
+            <div class="row" >
+              <div class="col-md-3">
+                  <img data-aos="fade-right"  data-aos-duration="3000" id="me" class="img-fluid rounded m-3" src="img/me.JPG" alt="Timothy Emeka Iloba">
+              </div>
+              <div class="col-md-9 text-center text-sm-start">
+                  <div data-aos="fade-left" class="m-4"  data-aos-duration="2000">
                     <h1 class="main-text">Timothy Iloba | <span class="text-info"> Full Stack Web Developer</span></h1>
-                    <p class="lead text-left my-4 welcome-text">
-                    	Young, dedicated and efficient full stack developer with 4+ years experience in Full stack web Development. Knowledgeable with ability to create, great problem solving skills and capable of working with a variety of technologies, software solutions and database management.
+                    <p class="lead text-center text-sm-start text-md-start  my-4 welcome-text">
+                      Young, dedicated and efficient full stack developer with 4+ years experience in Full stack web Development. Knowledgeable with ability to create, great problem solving skills and capable of working with a variety of technologies, software solutions and database management.
                         
                     </p>
                     <div>
-                    	<a id="links" class="btn btn-info m-1" target="_blank" href="https://github.com/Iloba"><i class="icofont icofont-github"></i></a>
+                      <a id="links" class="btn btn-info m-1" target="_blank" href="https://github.com/Iloba"><i class="icofont icofont-github"></i></a>
                      <a id="links" class="btn btn-info m-1" target="_blank" href="mailto:ilobatimothy@gmail.com"><i class="icofont-email"></i></a>
                       <a id="links" class="btn btn-info m-1" target="_blank" href="https://web.facebook.com/emeka.iloba.94"><i class="icofont icofont-facebook"></i></a>
                        <a id="links" class="btn btn-info m-1" target="_blank" href="https://twitter.com/EmekaIloba/"><i class="icofont icofont-twitter"></i></a>
                         <a id="links" class="btn btn-info m-1" target="_blank" href="https://www.linkedin.com/in/emeka-iloba-93332318a/"><i class="icofont icofont-linkedin"></i></a>
                     </div>
                 </div>
+              </div>
+                
             </div>
         </div>
     </section>
@@ -152,10 +131,22 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      PHP (Laravel) & Mysql 
+                      Good Knowledge of Data structures and Algorithm, Design Patterns and OOP Principles
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                       I am familiar with the fundamentals of computer science. I have good understanding of Data structures and algorithms, knowledge of design patterns, strict adherence to OOP Principles and the ability to write clean and scalable code.
+                    </div>
+                  </div>
+                </div>
+                 <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseOne">
+                      PHP (Laravel) & Mysql 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                        Developed web apps with great features like authentication systems, payment processors and lots more. I have also Built RESTFUL APIs for some web apps.
                        My good logical and problem solving skills fostered my building of amazaing web apps and APIs with Laravel and Mysql
@@ -448,5 +439,20 @@
 	<script>
 	  AOS.init();
 	</script>
+  <script type="text/javascript">
+    function myFunction() {
+    var x = document.getElementById("item");
+    x.style.display = "none";
+   
+  }
+
+  function display(){
+    var x = document.getElementById("item");
+    if( x.style.display = "none"){
+      x.style.display = "block";
+    }
+  }
+
+  </script>
 </body>
 </html>
