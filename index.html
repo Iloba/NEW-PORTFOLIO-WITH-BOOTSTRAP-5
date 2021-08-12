@@ -13,7 +13,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="icofont/icofont/icofont.min.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
 	 <nav  class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-3 shadow-lg">
@@ -22,35 +21,30 @@
             <a class="navbar-brand main-text" href="index.html"> Timothy Emeka Iloba</a>
           
             <!-- Navbar-toggler -->
-            <div x-data="{isOpen: false}">
-                <button @click="isOpen =  !isOpen" class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
-                  <span id="hello" class="navbar-toggler-icon"></span>
-                </button>
-                
-            </div>
-            
-
-           
-  			
-
+      
+              <!-- <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
+                <span id="hello" class="navbar-toggler-icon"></span>
+              </button>
+                -->
+          
             <!-- Navbar-Menu -->
-            <div class="collapse navbar-collapse" id="navmenu" x-data="{isOpen: true}" x-show="isOpen">
-                <ul  class="navbar-nav ms-auto" id="item" x-show="isOpen">
+            <div class="collapse navbar-collapse" id="navmenu" >
+                <ul  class="navbar-nav ms-auto" id="item" x-show="isOpen" >
                     <li class="nav-item">
-                        <a  @click="isOpen = false" class="nav-link active"  href="#about">About</a>
+                        <a   class="nav-link active"  href="#about">About</a>
                     </li>
                      <li class="nav-item">
-                        <a @click="isOpen = false" class="nav-link"   href="#skills">Top Expertise</a>
+                        <a  class="nav-link"   href="#skills">Top Expertise</a>
                     </li>
                     <li class="nav-item">
-                        <a @click="isOpen = false" class="nav-link"  href="#projects">Previous Projects</a>
+                        <a  class="nav-link"  href="#projects">Previous Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a @click="isOpen = false" class="nav-link"  target="_blank"  href="DEVELOPER-RESUME.pdf">Resume</a>
+                        <a  class="nav-link"  target="_blank"  href="DEVELOPER-RESUME.pdf">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a @click="isOpen = false" class="nav-link"  href="#contact">Contact</a>
+                        <a  class="nav-link"  href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
