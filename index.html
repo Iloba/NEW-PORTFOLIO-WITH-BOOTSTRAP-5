@@ -20,36 +20,40 @@
         <div class="container">
             <!-- Navbar-brand -->
             <a class="navbar-brand main-text" href="index.html"> Timothy Emeka Iloba</a>
-
+          
             <!-- Navbar-toggler -->
-            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" onclick="display();"  data-bs-target="#navmenu">
-                <span id="hello" class="navbar-toggler-icon"></span>
-            </button>
+            <div x-data="{isOpen: false}">
+                <button @click="isOpen =  !isOpen" class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
+                  <span id="hello" class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            
 
            
   			
 
             <!-- Navbar-Menu -->
-            <div class="collapse navbar-collapse" id="navmenu" >
-                <ul  class="navbar-nav ms-auto" id="item">
-                    <li class="nav-item" >
-                        <a  class="nav-link active"  href="#about">About</a>
+            <div class="collapse navbar-collapse" id="navmenu" x-data="{isOpen: true}" x-show="isOpen">
+                <ul  class="navbar-nav ms-auto" id="item" x-show="isOpen">
+                    <li class="nav-item">
+                        <a  @click="isOpen = false" class="nav-link active"  href="#about">About</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link"   href="#skills">Top Expertise</a>
+                        <a @click="isOpen = false" class="nav-link"   href="#skills">Top Expertise</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#projects">Previous Projects</a>
+                        <a @click="isOpen = false" class="nav-link"  href="#projects">Previous Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link"  target="_blank"  href="DEVELOPER-RESUME.pdf">Resume</a>
+                        <a @click="isOpen = false" class="nav-link"  target="_blank"  href="DEVELOPER-RESUME.pdf">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#contact">Contact</a>
+                        <a @click="isOpen = false" class="nav-link"  href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
+          
         </div>
     </nav>
     	
