@@ -13,9 +13,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="icofont/icofont/icofont.min.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-	 <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-3 shadow-lg">
+	 <nav  class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-3 shadow-lg">
         <div class="container">
             <!-- Navbar-brand -->
             <a class="navbar-brand main-text" href="index.html"> Timothy Emeka Iloba</a>
@@ -30,22 +31,22 @@
 
             <!-- Navbar-Menu -->
             <div class="collapse navbar-collapse" id="navmenu" >
-                <ul class="navbar-nav ms-auto" id="item">
+                <ul  class="navbar-nav ms-auto" id="item">
                     <li class="nav-item" >
-                        <a class="nav-link active" onclick="myFunction()" href="#about">About</a>
+                        <a  class="nav-link active"  href="#about">About</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link"  onclick="myFunction()" href="#skills">Top Expertise</a>
+                        <a class="nav-link"   href="#skills">Top Expertise</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  onclick="myFunction()" href="#projects">Previous Projects</a>
+                        <a class="nav-link"  href="#projects">Previous Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" onclick="myFunction()" target="_blank"  href="DEVELOPER-RESUME.pdf">Resume</a>
+                        <a class="nav-link"  target="_blank"  href="DEVELOPER-RESUME.pdf">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="myFunction()" href="#contact">Contact</a>
+                        <a class="nav-link"  href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -277,7 +278,7 @@
               </a>
             </div>
     			<div class="col-md-4">
-    				<a class="nav-link" target="_blank" href="https://github.com/Iloba/SCHOOL-E-REPORTING-APPLICATION">
+    				<a class="nav-link" target="_blank" href="http://sneyreport.herokuapp.com/">
     					<div class="card text-white shadow text-center text-sm-start" >  
 	                    <img class="card-img-top img-fluid" src="img/project4.png" alt="Emeka Iloba Timothy">
 	                        
@@ -289,7 +290,7 @@
                            
                             </p>
                             
-                            <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="https://github.com/Iloba/SCHOOL-E-REPORTING-APPLICATION" role="button">Learn more</a>
+                            <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="http://sneyreport.herokuapp.com/" role="button">Learn more</a>
                            
                             
                         </div>
@@ -440,28 +441,5 @@
 	<script>
 	  AOS.init();
 	</script>
-  <script type="text/javascript">
-    function myFunction() {
-    var screen_width = window.innerWidth;
-    if(screen_width <= 600){
-       var x = document.getElementById("item");
-        x.style.display = "none";
-    }else{
-      var x = document.getElementById("item");
-        x.style.display = "block";
-    }
-
-   
-   
-  }
-
-  function display(){
-    var x = document.getElementById("item");
-    if( x.style.display = "none"){
-      x.style.display = "block";
-    }
-  // }
-
-  </script>
 </body>
 </html>
