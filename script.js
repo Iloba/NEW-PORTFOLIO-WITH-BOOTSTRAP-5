@@ -1,20 +1,39 @@
-// Get the container element
-var btnContainer = document.getElementById("myDIV");
+// // Get the container element
+// var btnContainer = document.getElementById("myDIV");
 
-// Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("btn");
+// // Get all buttons with class="btn" inside the container
+// var btns = btnContainer.getElementsByClassName("btn");
 
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
+// // Loop through the buttons and add the active class to the current/clicked button
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function() {
+//     var current = document.getElementsByClassName("active");
 
-    // If there's no active class
-    if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active", "");
-    }
+//     // If there's no active class
+//     if (current.length > 0) {
+//       current[0].className = current[0].className.replace(" active", "");
+//     }
 
-    // Add the active class to the current/clicked button
-    this.className += " active";
-  });
+//     // Add the active class to the current/clicked button
+//     this.className += " active";
+//   });
+// }
+
+//Get Date and ADD
+
+const AddDate = function(){
+
+  //Get Span
+  const Span =  document.querySelector('#date-span');
+ 
+  //Get Date
+  const Year = new Date().getFullYear();
+
+  Span.innerHTML = Year;
+
 }
+
+AddDate();
+
+
+
