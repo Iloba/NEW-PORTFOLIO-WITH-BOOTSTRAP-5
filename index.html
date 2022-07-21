@@ -1,452 +1,522 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Emeka Timothy Iloba</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Emeka Iloba Timothy's Portfolio">
-	  <meta name="keywords" content="Web developer, laravel developer, emeka, iloba, Timothy, fullstack developer">
-	  <meta name="author" content="Emeka Iloba">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	<link rel="icon"  href="img/me.JPG">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="icofont/icofont/icofont.min.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Emeka Timothy Iloba</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Emeka Iloba Timothy's Portfolio">
+  <meta name="keywords" content="Web developer, laravel developer, emeka, iloba, Timothy, fullstack developer">
+  <meta name="author" content="Emeka Iloba">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="icon" href="img/me.JPG">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="icofont/icofont/icofont.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script type="text/javascript" src="script.js" defer></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEGEE6LKS1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEGEE6LKS1');
+  </script>
 </head>
+
 <body>
-	 <nav  class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-3 shadow-lg shadow-light">
-        <div class="container">
-            <!-- Navbar-brand -->
-            <a class="navbar-brand main-text" href="index.html"> Timothy Emeka Iloba</a>
-          
-            <!-- Navbar-toggler -->
-      
-              <!-- <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
+  <div class="loader-bg">
+    <div class="loader"> </div>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-white navbar-white  py-3 shadow-sm shadow-light">
+    <div class="container">
+      <!-- Navbar-brand -->
+      <a class="navbar-brand main-text " id="logo" href="index.html"> Timothy Iloba</a>
+
+      <!-- Navbar-toggler -->
+
+      <!-- <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
                 <span id="hello" class="navbar-toggler-icon"></span>
-              </button>
-                -->
-          
-            <!-- Navbar-Menu -->
-            <div class="collapse navbar-collapse" id="navmenu" >
-                <ul  class="navbar-nav ms-auto" id="item" x-show="isOpen" >
-                    <li class="nav-item">
-                        <a   class="nav-link active"  href="#about">About</a>
-                    </li>
-                     <li class="nav-item">
-                        <a  class="nav-link"   href="#skills">Top Expertise</a>
-                    </li>
-                    <li class="nav-item">
-                        <a  class="nav-link"  href="#projects">Previous Projects</a>
-                    </li>
+              </button> -->
 
-                    <li class="nav-item">
-                        <a  class="nav-link"  target="_blank"  href="TIMOTHY-ILOBA.pdf">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a  class="nav-link"  href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-          
+
+      <!-- Navbar-Menu -->
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto" id="item" x-show="isOpen">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about" id="nav-color">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills" id="nav-color">Top Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" id="nav-color">Previous Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="TIMOTHY-ILOBA.pdf" id="nav-color">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" id="nav-color">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- Section One -->
+  <section class="bg-light text-dark p-3 p-lg-0 pt-lg-5 text-center text-sm-start  ">
+    <div class="container p-1 p-sm-5">
+      <!-- Flex box -->
+      <div class="row">
+        <div class="col-md-3">
+          <img data-aos="fade-right" data-aos-duration="3000" id="me" class="img-fluid rounded m-3 shadow-sm my-image"
+            src="img/me.JPG" alt="Timothy Emeka Iloba">
         </div>
-    </nav>
-    	
+        <div class="col-md-9 text-center text-sm-start">
+          <div data-aos="fade-left" class="m-4" data-aos-duration="2000">
+            <h1 class="main-text text-coloured">Timothy Iloba | <span class=""> Full Stack Developer</span></h1>
+            <p class="lead text-center text-sm-start text-md-start  my-4 welcome-text" id="nav-color">
 
-    	<!-- Section One -->
-     <section class="bg-dark text-light p-3 p-lg-0 pt-lg-5 text-center text-sm-start mt-5 mb-5 ">
-        <div class="container p-1 p-sm-5">
-            <!-- Flex box -->
-            <div class="row" >
-              <div class="col-md-3">
-                  <img data-aos="fade-right"  data-aos-duration="3000" id="me" class="img-fluid rounded m-3" src="img/me.JPG" alt="Timothy Emeka Iloba">
-              </div>
-              <div class="col-md-9 text-center text-sm-start">
-                  <div data-aos="fade-left" class="m-4"  data-aos-duration="2000">
-                    <h1 class="main-text">Timothy Iloba | <span class="text-info"> Full Stack Web Developer</span></h1>
-                    <p class="lead text-center text-sm-start text-md-start  my-4 welcome-text">
+              I'm a Passionate, Dedicated and Proficient full stack developer with 4+ years experience in
+              Full stack web development. I am passionate about providing solutions using my talent and skills. I
+              believe in hardwork and excellence.
 
-                      Young, dedicated and proficient full stack developer with 4+ years experience in
-                       Full stack web Development. Knowledgeable with ability to create, great 
-                       problem solving skills and deep understanding of the software development process. 
-                      Capable of working with a variety of technologies, software solutions and database management.
+            </p>
+            <div>
+              <a id="links" class="btn btn-info m-1" target="_blank"
+              href="https://www.linkedin.com/in/emeka-iloba-93332318a/"><i class="icofont icofont-linkedin"></i></a>
+              <a id="links" class="btn btn-info m-1" target="_blank" href="https://github.com/Iloba"><i
+                  class="icofont icofont-github"></i></a>
+              <a id="links" class="btn btn-info m-1" target="_blank" href="mailto:ilobatimothy@gmail.com"><i
+                  class="icofont-email"></i></a>
+                  <a id="links" class="btn btn-info m-1" target="_blank" href="TIMOTHY-ILOBA.pdf"><i class="icofont-arrow-down"></i>Resume</a>
 
-
-        
-                        
-                    </p>
-                    <div>
-                      <a id="links" class="btn btn-info m-1" target="_blank" href="https://github.com/Iloba"><i class="icofont icofont-github"></i></a>
-                     <a id="links" class="btn btn-info m-1" target="_blank" href="mailto:ilobatimothy@gmail.com"><i class="icofont-email"></i></a>
-                      <a id="links" class="btn btn-info m-1" target="_blank" href="https://web.facebook.com/emeka.iloba.94"><i class="icofont icofont-facebook"></i></a>
-                       <a id="links" class="btn btn-info m-1" target="_blank" href="https://twitter.com/EmekaIloba/"><i class="icofont icofont-twitter"></i></a>
-                        <a id="links" class="btn btn-info m-1" target="_blank" href="https://www.linkedin.com/in/emeka-iloba-93332318a/"><i class="icofont icofont-linkedin"></i></a>
-                    </div>
-                </div>
-              </div>
-                
+              <!-- <a id="links" class="btn btn-info m-1" target="_blank" href="https://twitter.com/EmekaIloba/"><i
+                  class="icofont icofont-twitter"></i></a> -->
+             
             </div>
+          </div>
         </div>
-    </section>
+
+      </div>
+    </div>
+  </section>
 
 
-    <!-- Section Two -->
-    <section id="about" class=" p-3  p-sm-3   text-secondary text-center text-sm-start mb-5" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-    	<h1 class="text-center text-dark mb-5"><span class="">About</span> me</h1>
-    	<div class="container ">
-    		<div class="row">
-    			<div class="col-md-6">
-					<h2 class="text-dark">How it all began</h2>
-					<p>I started my Development Journey at age 15 After a long tussle with passion and my strong desire to understand sofware developement, know how it works and what goes on behind the scenes.</p>
-					<p>I am a Pasionate Full Stack Developer who believes in self improvement and positive impact making. I love to take on new challenges with my great problem solving skills.</p>
-					<p>
-						
-						I don’t like to define myself by the past projects  I’ve worked on. I define myself by the passion to learn and do more. Skills can be taught, personality is inherent. I prefer to keep learning and improving, continue challenging myself, and make great positive impact.
-			
-					</p>
-					<p>
-						
-						My passion fuels me in the pursuit of my goals. I’m a fast learner, able to pick up new skills and build different projects and roles with relative ease.
-			
-					</p>
-					<p>
-						
-						You can read more about my biography, experience, skills, education and much more in the RESUME attached Above.
-			
-					</p>
-				</div>  
-				<div class="col-md-6">
-					<img class="img-fluid d-none d-sm-block" src="img/tech.jpg">
-				</div>  
-							
-    		</div>
-    	</div>
-    </section>
+  <!-- Section Two -->
+  <section id="about" class=" p-3  p-sm-3 bg-purple text-light   text-secondary text-center text-sm-start "
+    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+    <h1 class="text-center text-light mb-5 mt-4"><span class="">About</span> me</h1>
+    <div class="container ">
+      <div class="row pb-5">
+        <div class="col-md-6">
+          <h2 class="text-white">How it all began</h2>
+          <p>I started my Development Journey at age 15 After a long tussle with passion and my strong desire to
+            understand sofware developement, know how it works and what goes on behind the scenes.</p>
+          <p>I am a Pasionate Full Stack Developer who believes in self improvement and positive impact making. I love
+            to take on new challenges with my great problem solving skills.</p>
+          <p>
 
-   
-      <!-- Expertise Section -->
-    <section id="skills" class="p-2 p-sm-5 bg-mixed mb-5" data-aos="fade-up"
-     data-aos-duration="3000">
-    	<h1 class="text-center mb-5 mt-2 text-light">Top Expertise</h1>
-        <div class="container mb-5 ">
-         	<div class="row">
-         		<div class="col-md-12">
-         			   <div class="accordion accordion-flush shadow" id="accordionFlushExample">
-                <!-- Item One -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Good Knowledge of Data structures and Algorithm, Design Patterns and OOP Principles
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                       I am familiar with the fundamentals of computer science. I have good understanding of Data structures and algorithms, knowledge of design patterns, strict adherence to OOP Principles and the ability to write clean and scalable code.
-                    </div>
-                  </div>
-                </div>
-                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseOne">
-                      PHP (Laravel) & Mysql 
-                    </button>
-                  </h2>
-                  <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                       Developed web apps with great features like authentication systems, payment processors and lots more. I have also Built RESTFUL APIs for some web apps.
-                       My good logical and problem solving skills fostered my building of amazaing web apps and APIs with Laravel and Mysql
-                    </div>
-                  </div>
-                </div>
-                <!-- Item Two -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Javascript (Vue Js)
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      I'm skillful with the use of Javascript. Built games, web apps and Single page applications with  Javascript and Vue Js
-                    </div>
-                  </div>
-                </div>
-               
+            I don’t like to define myself by the past projects I’ve worked on. I define myself by the passion to learn
+            and do more. Skills can be taught, personality is inherent. I prefer to keep learning and improving,
+            continue challenging myself, and make great positive impact.
 
-               <!-- Three -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapse">
-                       Html, Css, Bootstrap & Sass
-                      </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                       I have a great "design sense". Built under good time, beautiful and responsive web pages with Html, CSS, Sass and Bootstrap.
-                       
-                      </div>
-                    </div>
-                  </div>
+          </p>
+          <p>
 
-                <!-- Item Four -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapse">
-                       Wordpress
-                      </button>
-                    </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                       Built websites with wordpress, I also work well with Wordpress themes and plugins
-                      </div>
-                    </div>
-                  </div>
-                  	<!-- Item 5 -->
-                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapse">
-                       Great Problem Solving Skills
-                      </button>
-                    </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                       Over the years, I have developed my problem solving skills through close adherence to principles and practice.
-                      </div>
-                    </div>
-                  </div>
+            My passion fuels me in the pursuit of my goals. I’m a fast learner, able to pick up new skills and build
+            different projects and roles with relative ease.
 
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapse">
-                       Graphics Design
-                      </button>
-                    </h2>
-                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                       My love for Visual communication grew over the years. It motivated me to work hard and  pursue a part-time career in graphics design. I work well with Corel draw and photoshop.  
-                      </div>
-                    </div>
-                  </div>
-                  
-              </div>
-         		</div>
-         	</div>
+          </p>
+          <p>
+
+            You can read more about my biography, experience, skills, education and much more in the RESUME attached
+            Above.
+
+          </p>
         </div>
-    </section>
+        <div class="col-md-6">
+          <img class="img-fluid d-none d-sm-block" src="img/tech.jpg">
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
-    <!-- Projects Section -->
-    <section id="projects" class="p-2 p-sm-5 mb-5" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-    	<h1 class="text-center mb-3">Recent Projects</h1>
-    	<div class="container mb-3" >
-    		<div class="row">
-          <div class="col-md-4">
-              <a class="nav-link" target="_blank" href="https://morning-harbor-63311.herokuapp.com/">
-                <div class="card text-white shadow text-center text-sm-start" >  
-                        <img class="card-img-top img-fluid" src="img/movie.png" alt="Emeka Iloba Timothy">
-                          <div class="card-body p-3">
-                              <h3 class="text-dark">Movie App with Laravel</h3>
-                              <p class="text-secondary">
-                               
-                               A Movie App that consumes data from the TMDB API. Displays popular movies, Tv series, Actors and their full details. Technologies used include Tailwind Css, Alpine Js and Laravel Livewire
-                               
-                              </p>
-                              
-                              <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="https://morning-harbor-63311.herokuapp.com/" role="button">Learn more</a> 
-                          </div>
-                              
-                        </div>
-               </a>
+  <!-- Expertise Section -->
+  <section id="skills" class="p-2 p-sm-5 bg-mixed mb-5" data-aos="fade-up" data-aos-duration="3000">
+    <h1 class="text-center mb-5 mt-2 text-light">Top Expertise</h1>
+    <div class="container mb-5 ">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="accordion accordion-flush shadow" id="accordionFlushExample">
+            <!-- Item One -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Good Knowledge of Data structures and Algorithm, Design Patterns and OOP Principles
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  I am familiar with the fundamentals of computer science. I have good understanding of Data structures
+                  and algorithms, knowledge of design patterns, strict adherence to OOP Principles and the ability to
+                  write clean and scalable code.
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <a class="nav-link" target="_blank" href="http://sneyshop.herokuapp.com/">
-                <div class="card text-white shadow text-center text-sm-start" >  
-                        <img class="card-img-top img-fluid" src="img/project6.png" alt="Emeka Iloba Timothy">
-                            
-
-                          <div class="card-body p-3">
-                              <h3 class="text-dark">Ecommerce website with Laravel</h3>
-                              <p class="text-secondary">
-                                Built an ecommerce website with PHP (Laravel and Mysql )..............
-                             
-                              </p>
-                              
-                              <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="http://sneyshop.herokuapp.com/" role="button">Learn more</a>
-                             
-                              
-                          </div>
-                              
-                        </div>
-              </a>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseOne">
+                  PHP (Laravel) & Mysql
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Developed web apps with great features like authentication systems, payment processors and lots more.
+                  I have also Built RESTFUL APIs for some web apps.
+                  My good logical and problem solving skills fostered my building of amazaing web apps and APIs with
+                  Laravel and Mysql
+                </div>
+              </div>
             </div>
-    			<div class="col-md-4">
-    				<a class="nav-link" target="_blank" href="http://sneyreport.herokuapp.com/">
-    					<div class="card text-white shadow text-center text-sm-start" >  
-	                    <img class="card-img-top img-fluid" src="img/project4.png" alt="Emeka Iloba Timothy">
-	                        
-
-                        <div class="card-body p-3">
-                            <h3 class="text-dark">E-report</h3>
-                            <p class="text-secondary">
-                            	E-report is a web application built with Laravel that helps teachers send student's report directly to their parents mail boxes. It also helps parents track their ward's Academic performance....
-                           
-                            </p>
-                            
-                            <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="http://sneyreport.herokuapp.com/" role="button">Learn more</a>
-                           
-                            
-                        </div>
-                            
-                    	</div>
-    				</a>
-    			</div>
-    			
-
-    				
-    				
-    		</div>
-
-    	</div>
-
-		<div class="container mb-3" >
-    		<div class="row">
-          <div class="col-md-4">
-              <a class="nav-link" target="_blank" href="https://www.learnnova.com/">
-                <div class="card text-white shadow text-center text-sm-start" >  
-                        <img class="card-img-top img-fluid" src="img/project2.png" alt="Emeka Iloba Timothy">
-                            
-
-                          <div class="card-body p-3">
-                              <h3 class="text-dark">Learnnova</h3>
-                              <p class="text-secondary">
-                                Built this great application working in a team of great developers.
-                                Learnnova is an E-learning platform that helps pupils improve their reading skills....
-                             
-                              </p>
-                              
-                              <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="https://www.learnnova.com/" role="button">Learn more</a>
-                             
-                              
-                          </div>
-                              
-                        </div>
-                  </a>
-             </div>
-
-    			<div class="col-md-4">
-    				<a class="nav-link" target="_blank" href="https://schoolpreneur.com.ng/">
-    					<div class="card text-white shadow text-center text-sm-start" >  
-	                    <img class="card-img-top img-fluid" src="img/project1.png" alt="Emeka Iloba Timothy">
-	                        
-
-                        <div class="card-body p-3">
-                            <h3 class="text-dark">Schoolpreneur</h3>
-                            <p class="text-secondary">
-                            	It was a great oppourtunity working on this project. Schoolpreneur is the leading provider of vocational and technical training program.....
-                           
-                            </p>
-                            
-                            <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="https://schoolpreneur.com.ng/" role="button">Learn more</a>
-                           
-                            
-                        </div>
-                            
-                    	</div>
-    				</a>
-    			</div>
-          <div class="col-md-4">
-              <a class="nav-link" target="_blank" href="https://github.com/topazdom">
-                <div class="card text-white shadow text-center text-sm-start" >  
-                        <img class="card-img-top img-fluid" src="img/project7.png" alt="Emeka Iloba Timothy">
-                            
-
-                          <div class="card-body p-3">
-                              <h3 class="text-dark">School Portal Kit</h3>
-                              <p class="text-secondary">
-                                Worked in a team and built a school portal and support system with PHP Laravel and Mysql
-                             
-                              </p>
-                              
-                              <a class="btn btn-dark  btn-block btn-sm-start m-3"  target="_blank" href="https://github.com/topazdom" role="button">Learn more</a>
-                             
-                              
-                          </div>
-                              
-                        </div>
-              </a>
+            <!-- Item Two -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Javascript (React Js)
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  I'm skillful with the use of Javascript. Built games, web apps and Single page applications with
+                  Javascript and React Js
+                </div>
+              </div>
             </div>
 
-    				
 
-    			
+            <!-- Three -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapse">
+                  Html, Css, Bootstrap & Sass
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  I have a great "design sense". Built under good time, beautiful and responsive web pages with Html,
+                  CSS, Sass and Bootstrap.
 
-    				
-    		</div>
+                </div>
+              </div>
+            </div>
 
-    	</div>
-    </section>
+            <!-- Item Four -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapse">
+                  Wordpress
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Built websites with wordpress, I also work well with Wordpress themes and plugins
+                </div>
+              </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapse">
+                  Great Problem Solving Skills
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Over the years, I have developed my problem solving skills through close adherence to principles and
+                  practice.
+                </div>
+              </div>
+            </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="p-2 p-sm-5 mb-5 bg-mixedTwo text-light" data-aos="fade-up"
-     data-aos-duration="3000">
-    	
-    	<div class="container mt-3">
-    		<h1 class="text-center mb-5">Contact Me</h1>
-    		<div class="row">
-    			<div class="col-md-6">
-    				<img class="img-fluid d-none d-sm-block laravel" src="img/laravel.svg">
-    			</div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapse">
+                  Graphics Design
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  My love for Visual communication grew over the years. It motivated me to work hard and pursue a
+                  part-time career in graphics design. I work well with Corel draw and photoshop.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-    			<div class="col-md-6 form-section">
-	    			<form method="POST" action="" netlify>
-	    				<div class="input-group mb-3">
-						  <span class="input-group-text bg-light" id="basic-addon1"><i class="icofont-user"></i></span>
-						  <input type="text" name="name" class="form-control shadow" placeholder="Full Name" aria-label="Username" aria-describedby="basic-addon1">
-						</div>
+  <!-- Projects Section -->
+  <section id="projects" class="p-2 p-sm-5 mb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+    <h1 class="text-center mb-3">Recent Projects</h1>
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-md-4">
+          <a class="nav-link" target="_blank" href="https://nogmi.biz">
+            <div class="card text-white shadow text-center text-sm-start">
+              <img class="card-img-top img-fluid" src="img/nogmi.png" alt="Emeka Iloba Timothy">
 
-						<div class="input-group mb-3">
-						  <span class="input-group-text bg-light" id="basic-addon1"><i class="icofont-email"></i></span>
-						  <input type="text" class="form-control shadow" placeholder="Email Address or Phone" aria-label="Email" aria-describedby="basic-addon1">
-						</div>
-	                                  
-                      
 
-	                       <textarea name="message" id="" cols="30" class="form-control shadow" rows="8" placeholder="Enter Message" required></textarea> <br>
-	                     <button type="submit" class="btn btn-light">Send Message</button>
-	    			</form>
-    			</div>
-    		</div>
-    	</div>
-    		
-    	
-    </section>
+              <div class="card-body p-3">
+                <h3 class="text-dark">Digital Marketplace with Laravel</h3>
 
-    <!-- Footer -->
-    <section class="p-5 shadow bg-light" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-    	<footer class="text-secondary position-relative">
-    		<p class="text-center">&copy; Emeka Timothy Iloba <span id="date-span"></span></p>
-    		<div class="d-flex justify-content-center align-items-center ">
-    			<a class="btn btn-dark m-2" target="_blank" href="https://github.com/Iloba"><i class="icofont icofont-github"></i></a>
-                 <a class="btn btn-dark m-2" target="_blank" href="TIMOTHY-ILOBA.pdf"><i class="icofont-ui-file"></i></a>
-                  <a class="btn btn-dark m-2" target="_blank" href="https://web.facebook.com/emeka.iloba.94"><i class="icofont icofont-facebook"></i></a>
-                  <a class="btn btn-dark m-2" target="_blank" href="https://twitter.com/EmekaIloba/"><i class="icofont icofont-twitter"></i></a>
-                  <a class="btn btn-dark m-2" target="_blank" href="https://www.linkedin.com/in/emeka-iloba-93332318a/"><i class="icofont icofont-linkedin"></i></a>
-    		</div>
-    		<a class="position-absolute bottom-0 end-0 p-5" href="#"><i class="icofont icofont-chevrolet-up h1"></i>
-    	</footer>
-    </section>
+                <p class="text-secondary">
+                  Nicky Okoye Market place was a great and very large scale project.
+                  It was a digital marketplace where great businessmen and women met to do business.
+                </p>
 
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-	  AOS.init();
-	</script>
+                <a id="btn-coloured" class="btn btn-dark  btn-block btn-sm-start m-3" target="_blank"
+                  href="https://nogmi.biz" role="button">Learn more</a>
+
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a class="nav-link" target="_blank" href="https://github.com/Iloba/GYM-SCHEDULE-APP-TRACKER">
+            <div class="card text-white shadow text-center text-sm-start">
+              <img class="card-img-top img-fluid" src="img/fit.png" alt="Emeka Iloba Timothy">
+
+
+              <div class="card-body p-3">
+                <h3 class="text-dark">Workout Schedule app</h3>
+                <p class="text-secondary">
+                  It was a great oppourtunity working on this project. The fit live well app helps gym instructors
+                  schedule workouts for their clients, sychronize the workouts to their google calendar so their clients
+                  can recieve reminders before time.
+
+                </p>
+
+                <a id="btn-coloured" class="btn btn-dark  btn-block btn-sm-start m-3" target="_blank"
+                  href="https://github.com/Iloba/GYM-SCHEDULE-APP-TRACKER" role="button">Learn more</a>
+
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+
+        <div class="col-md-4">
+          <a class="nav-link" target="_blank" href="http://sneyreport.herokuapp.com/">
+            <div class="card text-white shadow text-center text-sm-start">
+              <img class="card-img-top img-fluid" src="img/project4.png" alt="Emeka Iloba Timothy">
+
+
+              <div class="card-body p-3">
+                <h3 class="text-dark">E-report</h3>
+                <p class="text-secondary">
+                  E-report is a web application built with Laravel that helps teachers send student's report directly to
+                  their parents mail boxes. It also helps parents track their ward's Academic performance....
+
+                </p>
+
+                <a id="btn-coloured" class="btn btn-dark  btn-block btn-sm-start m-3" target="_blank"
+                  href="http://sneyreport.herokuapp.com/" role="button">Learn more</a>
+
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-md-4">
+          <a class="nav-link" target="_blank" href="https://morning-harbor-63311.herokuapp.com/">
+            <div class="card text-white shadow text-center text-sm-start">
+              <img class="card-img-top img-fluid" src="img/movie.png" alt="Emeka Iloba Timothy">
+              <div class="card-body p-3">
+                <h3 class="text-dark">Movie App with Laravel</h3>
+                <p class="text-secondary">
+
+                  A Movie App that consumes data from the TMDB API. Displays popular movies, Tv series, and lots more.
+
+                </p>
+
+                <a id="btn-coloured" class="btn btn-dark  btn-block btn-sm-start m-3" target="_blank"
+                  href="https://morning-harbor-63311.herokuapp.com/" role="button">Learn more</a>
+              </div>
+
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="nav-link" target="_blank" href="https://www.learnnova.com/">
+            <div class="card text-white shadow text-center text-sm-start">
+              <img class="card-img-top img-fluid" src="img/project2.png" alt="Emeka Iloba Timothy">
+
+
+              <div class="card-body p-3">
+                <h3 class="text-dark">Learnnova</h3>
+                <p class="text-secondary">
+                  Built this great application working in a team of great developers.
+                  Learnnova is an E-learning platform that helps pupils improve their reading skills....
+
+                </p>
+
+                <a id="btn-coloured" class="btn btn-dark  btn-block btn-sm-start m-3" target="_blank"
+                  href="https://www.learnnova.com/" role="button">Learn more</a>
+
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+
+        <div class="col-md-4">
+          <a class="nav-link" target="_blank" href="https://github.com/topazdom">
+            <div class="card text-white shadow text-center text-sm-start">
+              <img class="card-img-top img-fluid" src="img/project7.png" alt="Emeka Iloba Timothy">
+
+
+              <div class="card-body p-3">
+                <h3 class="text-dark">School Portal Kit</h3>
+                <p class="text-secondary">
+                  Worked in a team and built a school portal and support system with PHP Laravel and Mysql
+
+                </p>
+
+                <a id="btn-coloured" class="btn btn-dark  btn-block btn-sm-start m-3" target="_blank"
+                  href="https://github.com/topazdom" role="button">Learn more</a>
+
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-2 p-sm-5 mb-5 bg-mixedTwo text-light" data-aos="fade-up" data-aos-duration="3000">
+
+    <div class="container mt-3">
+      <h1 class="text-center mb-5">Contact Me</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid d-none d-sm-block laravel" src="img/laravel.svg">
+        </div>
+
+
+        <div class="col-md-6 form-section">
+          <form method="POST" action="" netlify>
+            <div class="input-group mb-3">
+              <span class="input-group-text bg-light" id="basic-addon1"><i class="icofont-user"></i></span>
+              <input type="text" name="name" class="form-control shadow" placeholder="Full Name" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text bg-light" id="basic-addon1"><i class="icofont-email"></i></span>
+              <input type="text" class="form-control shadow" placeholder="Email Address or Phone" aria-label="Email"
+                aria-describedby="basic-addon1">
+            </div>
+
+
+
+            <textarea name="message" id="" cols="30" class="form-control shadow" rows="8" placeholder="Enter Message"
+              required></textarea> <br>
+            <button type="submit" class="btn btn-light">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Footer -->
+  <section class="p-5 shadow bg-light" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+    <footer class="text-secondary position-relative">
+      <p class="text-center">&copy; Emeka Timothy Iloba <span id="date-span"></span></p>
+      <div class="d-flex justify-content-center align-items-center ">
+        <a id="links" class="btn btn-dark m-2" target="_blank" href="https://github.com/Iloba"><i
+            class="icofont icofont-github"></i></a>
+        <a id="links" class="btn btn-dark m-2" target="_blank" href="TIMOTHY-ILOBA.pdf"><i
+            class="icofont-ui-file"></i></a>
+
+        <!-- <a id="links" class="btn btn-dark m-2" target="_blank" href="https://twitter.com/EmekaIloba/"><i
+            class="icofont icofont-twitter"></i></a> -->
+        <a id="links" class="btn btn-dark m-2" target="_blank"
+          href="https://www.linkedin.com/in/timothy-emeka-iloba-93332318a/"><i class="icofont icofont-linkedin"></i></a>
+      </div>
+      <a class="position-absolute bottom-0 end-0 p-5" href="#"><i class="icofont icofont-chevrolet-up h1"></i>
+    </footer>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+      setTimeout(function(){
+        $('.loader-bg').fadeToggle();
+      }, 1500)
+    </script>
 </body>
+
 </html>
